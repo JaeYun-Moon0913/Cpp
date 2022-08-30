@@ -7,7 +7,7 @@ int main()
 	// scanf("%d", &num); // 입력을 받을 수 있는 함수? 
 	// & scaf에서 num의 값을 넘겨주려고함 
 	// 함수 외부 변수에서 함수 내부 변수 바꾸려면 주소값을 줘야함 
-	int ch; 
+	int* ch; 
 	int n = scanf("%d %c", &num, &ch); // 입력 받는 개수를 출력 함 
 	printf("%d", n);
 }
