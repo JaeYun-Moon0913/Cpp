@@ -1,5 +1,4 @@
 #include<iostream>
-
 using namespace std;
 
 union Union
@@ -11,7 +10,7 @@ union Union
 // 안에 있는 변수들이 메모리 공간을 공유 
 
 // 주소값이 왜 타입을 가지는 지 확인하기 위해 
-void sub()
+void sub1()
 {
 	Union u;
 
